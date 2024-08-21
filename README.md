@@ -34,3 +34,6 @@ npm run dev
 
 1. On the main page, drag the map to change the location of the pickup point
 2. Move the slider to change the number of drivers that can be displayed
+
+<img width="452" alt="Screenshot 2024-08-21 at 3 42 12 PM" src="https://github.com/user-attachments/assets/7acfd331-187f-48a3-a6b6-22f3f0fd085c">
+
