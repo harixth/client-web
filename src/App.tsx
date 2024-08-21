@@ -4,6 +4,9 @@ import ky from "ky";
 import "./App.css";
 import { Driver, DriversResponse } from "./type";
 
+// Define Mapbox Access Token
+const accessToken = import.meta.env.VITE_MAPBOX_KEY;
+
 function App() {
   const mapContainer = useRef<any>(null);
   const map = useRef<mapboxgl.Map | null>(null);
@@ -25,8 +28,7 @@ function App() {
       container: mapContainer.current,
       style: "mapbox://styles/mapbox/streets-v12",
       center: [lng, lat],
-      accessToken:
-        "pk.eyJ1IjoiZ2VtYWJ5dGUiLCJhIjoiY20wMjFuZGNxMXY3ZDJtczIycHZ5cWNjbSJ9.gNsD2IfrQgNGPibivI0gug",
+      accessToken,
       zoom: zoom,
     });
     const currentMap = map.current;
