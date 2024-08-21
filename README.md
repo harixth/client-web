@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-1. Clone this Repository `git clone `
+1. Clone this Repository `git clone https://github.com/harixth/client-web.git`
 2. Install npm Dependencies
 
 ```
